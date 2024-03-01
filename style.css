@@ -13,9 +13,32 @@ body{
 background-color: var(--cor-de-fundo);
 color: var(--branco);
 font-family: 'Chakra Petch', sans-serif;
-
-
-
-
+}
+.conteudo-principal{
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.titulo-principal{
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+.titulo-principal span {
+  color: #6fff57;
+}
+.botao{
+  font-family:'Chakra Petch', sans-serif;
+  background-color: var(--botao-inativo);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
 
 }
