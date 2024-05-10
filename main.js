@@ -1,10 +1,11 @@
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo01 = new Date("2024-10-05T00:00:00");
-const tempoObjetivo02 = new Date("2024-12-05T00:00:00");
-const tempoObjetivo03 = new Date("2024-12-30T00:00:00");
-const tempoObjetivo04 = new Date("2025-02-05T00:00:00");
+const tempoObjetivo01 = new Date("2024-12-31T00:00:00");
+const tempoObjetivo02 = new Date("2024-12-31T00:00:00");
+const tempoObjetivo03 = new Date("2024-12-31T00:00:00");
+const tempoObjetivo04 = new Date("2024-12-31T00:00:00");
+const tempos =[tempoObjetivo01,tempoObjetivo02,tempoObjetivo03,tempoObjetivo04];
 let tempoAtual = new Date();
 const tempos =[tempoObjetivo01,tempoObjetivo02,tempoObjetivo03,tempoObjetivo04];
 for (let i = 0; i< contadores.length; i++){
